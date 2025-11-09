@@ -142,7 +142,7 @@ function BusinessManagement() {
           <div className="delete-modal" onClick={e => e.stopPropagation()}>
             <h3>Delete Business</h3>
             <p>
-              Are you sure you want to delete "{deleteModal.name}"? 
+              Are you sure you want to delete &quot;{deleteModal.name}&quot;?
               This action cannot be undone.
             </p>
             <div className="modal-actions">
