@@ -42,14 +42,14 @@
 .filters select:focus,
 .filters input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #0891b2;
   background-color: white;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.1);
 }
 
 .filters button {
   padding: 12px 24px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -61,7 +61,7 @@
 
 .filters button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 6px 20px rgba(8, 145, 178, 0.3);
 }
 
 .businesses-section h1 {
@@ -120,7 +120,7 @@
 }
 
 .business-category {
-  color: #667eea;
+  color: #0891b2;
   font-size: 14px;
   margin: 6px 0;
   font-weight: 500;
@@ -129,11 +129,13 @@
 }
 
 .business-location {
-  color: #666;
+  color: #495057;
   font-size: 14px;
   margin: 6px 0;
   display: flex;
   align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
 
 .business-location::before {

@@ -183,7 +183,7 @@ function BusinessDetails() {
           
           <div className="business-location">
             <p>{business.address}</p>
-            <p>{business.city}, {business.state} {business.zipCode}</p>
+            <p>{business.city}, {business.state} {business.zipCode},</p>
             <p>{business.country}</p>
           </div>
           

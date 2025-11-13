@@ -11,7 +11,7 @@ function Navigation() {
       <div className="nav-container">
         <NavLink to="/" className="logo">
           <span className="logo-icon">🍽️</span>
-          YelpClone
+          ReviewHub
         </NavLink>
 
         <ul className="nav-links">

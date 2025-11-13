@@ -35,7 +35,7 @@
 }
 
 .add-image-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   color: white;
   border: none;
   padding: 8px 16px;
@@ -137,7 +137,7 @@
 }
 
 .add-first-image-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -180,7 +180,7 @@
 
 .add-image-form input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #0891b2;
 }
 
 .add-image-form .form-actions {
@@ -200,12 +200,12 @@
 }
 
 .add-image-form button[type="submit"] {
-  background: #667eea;
+  background: #0891b2;
   color: white;
 }
 
 .add-image-form button[type="submit"]:hover {
-  background: #5a6fd8;
+  background: #0e7490;
 }
 
 .add-image-form button[type="button"] {
@@ -271,11 +271,15 @@
 
 .business-location {
   margin: 15px 0;
-  color: #666;
+  color: #495057;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .business-location p {
   margin: 2px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 .business-description {
