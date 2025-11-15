@@ -67,7 +67,7 @@
   outline: none;
   border-color: #0891b2;
   background-color: white;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.1);
 }
 
 .form-group input::placeholder {
@@ -96,7 +96,7 @@
 
 .login-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 6px 20px rgba(8, 145, 178, 0.3);
 }
 
 .login-button:active {
@@ -144,4 +144,34 @@
 .auth-links a:hover {
   color: #0e7490;
   text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-page {
+    padding: 15px;
+  }
+
+  .login-container {
+    padding: 30px 20px;
+  }
+
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .login-form {
+    gap: 18px;
+  }
+
+  .form-group input {
+    font-size: 16px;
+    padding: 12px 14px;
+  }
+
+  .login-button,
+  .demo-login {
+    font-size: 15px;
+  }
 }
